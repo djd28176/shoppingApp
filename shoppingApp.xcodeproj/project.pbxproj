@@ -11,6 +11,14 @@
 		CAD241322B1A78AA00CDDF48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD241312B1A78AA00CDDF48 /* ContentView.swift */; };
 		CAD241342B1A78AB00CDDF48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD241332B1A78AB00CDDF48 /* Assets.xcassets */; };
 		CAD241372B1A78AB00CDDF48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD241362B1A78AB00CDDF48 /* Preview Assets.xcassets */; };
+		CAD2413E2B1A812D00CDDF48 /* OnBoardingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD2413D2B1A812D00CDDF48 /* OnBoardingScreenView.swift */; };
+		CAD241412B1A814D00CDDF48 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD241402B1A814D00CDDF48 /* HomeScreen.swift */; };
+		CAD241442B1E377D00CDDF48 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD241432B1E377D00CDDF48 /* ImageData.swift */; };
+		CAD241462B1E378F00CDDF48 /* NearYouData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD241452B1E378F00CDDF48 /* NearYouData.swift */; };
+		CAD241482B1E391300CDDF48 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD241472B1E391300CDDF48 /* FruitCardView.swift */; };
+		CAD2414C2B1E3C8000CDDF48 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD2414B2B1E3C8000CDDF48 /* DetailView.swift */; };
+		CAD2414E2B1E3C9E00CDDF48 /* TopSellingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD2414D2B1E3C9E00CDDF48 /* TopSellingView.swift */; };
+		CAD241502B1E6B5700CDDF48 /* NearYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD2414F2B1E6B5700CDDF48 /* NearYouView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		CAD241312B1A78AA00CDDF48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CAD241332B1A78AB00CDDF48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAD241362B1A78AB00CDDF48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAD2413D2B1A812D00CDDF48 /* OnBoardingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreenView.swift; sourceTree = "<group>"; };
+		CAD241402B1A814D00CDDF48 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		CAD241432B1E377D00CDDF48 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		CAD241452B1E378F00CDDF48 /* NearYouData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearYouData.swift; sourceTree = "<group>"; };
+		CAD241472B1E391300CDDF48 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
+		CAD2414B2B1E3C8000CDDF48 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CAD2414D2B1E3C9E00CDDF48 /* TopSellingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSellingView.swift; sourceTree = "<group>"; };
+		CAD2414F2B1E6B5700CDDF48 /* NearYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearYouView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +67,10 @@
 		CAD2412E2B1A78AA00CDDF48 /* shoppingApp */ = {
 			isa = PBXGroup;
 			children = (
+				CAD241422B1E375A00CDDF48 /* Model */,
+				CAD2413F2B1A813300CDDF48 /* HomeScreenViews */,
 				CAD2412F2B1A78AA00CDDF48 /* shoppingAppApp.swift */,
+				CAD2413D2B1A812D00CDDF48 /* OnBoardingScreenView.swift */,
 				CAD241312B1A78AA00CDDF48 /* ContentView.swift */,
 				CAD241332B1A78AB00CDDF48 /* Assets.xcassets */,
 				CAD241352B1A78AB00CDDF48 /* Preview Content */,
@@ -65,6 +84,27 @@
 				CAD241362B1A78AB00CDDF48 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAD2413F2B1A813300CDDF48 /* HomeScreenViews */ = {
+			isa = PBXGroup;
+			children = (
+				CAD241402B1A814D00CDDF48 /* HomeScreen.swift */,
+				CAD241472B1E391300CDDF48 /* FruitCardView.swift */,
+				CAD2414B2B1E3C8000CDDF48 /* DetailView.swift */,
+				CAD2414D2B1E3C9E00CDDF48 /* TopSellingView.swift */,
+				CAD2414F2B1E6B5700CDDF48 /* NearYouView.swift */,
+			);
+			path = HomeScreenViews;
+			sourceTree = "<group>";
+		};
+		CAD241422B1E375A00CDDF48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CAD241432B1E377D00CDDF48 /* ImageData.swift */,
+				CAD241452B1E378F00CDDF48 /* NearYouData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +177,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAD241412B1A814D00CDDF48 /* HomeScreen.swift in Sources */,
+				CAD2414C2B1E3C8000CDDF48 /* DetailView.swift in Sources */,
+				CAD2414E2B1E3C9E00CDDF48 /* TopSellingView.swift in Sources */,
+				CAD241462B1E378F00CDDF48 /* NearYouData.swift in Sources */,
+				CAD2413E2B1A812D00CDDF48 /* OnBoardingScreenView.swift in Sources */,
 				CAD241322B1A78AA00CDDF48 /* ContentView.swift in Sources */,
+				CAD241502B1E6B5700CDDF48 /* NearYouView.swift in Sources */,
+				CAD241482B1E391300CDDF48 /* FruitCardView.swift in Sources */,
+				CAD241442B1E377D00CDDF48 /* ImageData.swift in Sources */,
 				CAD241302B1A78AA00CDDF48 /* shoppingAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
